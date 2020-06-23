@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body, html {
+    width: 100%;
+    font-family: 'Gill Sans';
+    max-width: 100%;
+    overflow-x: hidden;
+    color: #203649;
+  }
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    text-align: right;
+    font-size: 1rem;
+    color: black;
+    z-index: 99;
+}
+
+ul {
+    padding-right: 10px;
+}
+
+li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.devis {
+    font-family: 'Gill Sans';
+    font-size: 1rem;
+	position: relative;
+	border: 0;
+	padding: 0.6em 1em;
+	background: #33BB52;
+	color: #fff;
+    border-radius: 4px;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #33BB52;
+}
+
+.logo {
+    left: 1rem;
+    position: absolute;
+    width: 170px;
+    margin-top: -16px;
+    margin-left: 10px;
+}
+
+.green {
+    color: #33BB52;
+    font-weight: 700;
+}
+
+.bloc {
+    width: 100%;
+    position: absolute;
+}
+
+.plant {
+    position: absolute;
+    top: 44%;
+    right: 0;
+    transform: translate(0, -50%);
+    width: 20vw;
+}
+
+.seeds {
+    position: absolute;
+    bottom: calc(50% - 26vw);
+    left: 10vw;
+    transform: translate(0, 0);
+    width: 20vw;
+}
+
+.more {
+    z-index: 100;
+    position: absolute; /* postulat de départ */
+    top: calc(44% + 20vw); left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%);
+    font-family: 'Gill Sans';
+    font-size: 1.4vw;
+	position: relative;
+	border: 0;
+	padding: 0.6em 1em;
+	background: #203649;
+	color: #fff;
+    border-radius: 4px;
+}
+
+button:hover {
+    opacity: 60%;
+}
+
+section {
+    max-width: 100%;
+    min-height: 60vw;
+    width: 100%;
+    position: relative;
+  }
+
+  h2 {
+    position: absolute; /* postulat de départ */
+    top: 44%; left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%);
+    font-size: 6vw;
+    text-align: center;
+    font-weight: 500;
+    width: 80%;
+    line-height: 1em;
+  }
+
+  .desc {
+    font-size: 2.4vw;
+    text-align: center;
+    opacity: 60%;
+    font-weight: 100;
+    margin-top: 26px;
+    line-height: 1.2em;
+  }
+
+  .cercle { 
+    position: absolute; /* postulat de départ */
+    top: 44%;
+    right: 0; /* à 50%/50% du parent référent */
+    transform: translate(60%, -80%);
+    height: 90vw; 
+    width: 90vw; 
+    background-color: #eaf6fd85;
+    border-radius: 50%;
+    z-index: -2;
+} 
+
+.cercle1 { 
+    position: absolute; /* postulat de départ */
+    top: 0;
+    left: 0; /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%);
+    height: 30vw;
+    width: 30vw;
+    background-color: #eaf6fd85;
+    border-radius: 50%;
+    z-index: -2;
+}
+
+.leaf {
+    position: absolute; /* postulat de départ */
+    top: 0%;
+    left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, 50%);
+}
+
+h4 {
+    position: absolute; /* postulat de départ */
+    top: 0%;
+    left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, 0%);
+    margin-top: 70px;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 500;
+    width: 60%;
+}
+
+.services {
+    width: 86%;
+    position: absolute; /* postulat de départ */
+    top: 0%;
+    left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, 50%);
+    margin-top: calc(80px - 4vw);
+}
+
+.webapp {
+    width: 86%;
+    position: absolute; /* postulat de départ */
+    top: 0%;
+    left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, 50%);
+    margin-top: calc(10px - 4vw);
+}
+
+.centrage2 {
+    width: 20vw;
+    font-size: 2vw;
+    position: absolute; /* postulat de départ */
+    top: calc(30% + 10vw);
+    left: calc(50% + 20px);
+    margin-top: calc(10px - 4vw);
+}
+
+.centrage1 {
+    width: 20vw;
+    font-size: 2vw;
+    position: absolute; /* postulat de départ */
+    top: calc(30% + 10vw);
+    right: calc(50% + 20px);
+    margin-top: calc(10px - 4vw);
+}
