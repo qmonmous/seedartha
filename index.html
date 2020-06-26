@@ -11,8 +11,8 @@
     <nav>
         <ul>
           <li><a href="../seedartha"><img class="logo" src="images/logoo.png" alt="logo seedartha"></a></li>
-          <li>Blog</li>
-          <li>Contact</li>
+          <li>Blog (bientôt)</li>
+          <a style="color: black" href="mailto:contact@seedartha.com"><li>Contact</li></a>
           <li><button class="devis">Demander un devis</button></li>
         </ul>
       </nav>
@@ -27,23 +27,46 @@
         </section>
         <section>
             <img class='leaf' src="images/leaf.png" alt="Mon image de test">
-            <h4>Notre outil vous assiste pour atteindre les meilleurs rendements</h4>
-            <img class='services' src="images/services.png" alt="Mon image de test">
+            <h4>Nos créations pour vous assister à atteindre des performances optimales</h4>
+            <img class='services' src="images/functions (1).png" alt="Mon image de test">
         </section>
         <section style="height: 80vw">
             <img class='leaf' src="images/leaf.png" alt="Mon image de test">
-            <h4>Un monitoring précis et instantané, grâce à une web-app simple et intuitive </h4>
-            <img class='webapp' src="images/webapp.png" alt="Mon image de test">
+            <h4>Un monitoring précis et instantané, grâce à une web-app simple et intuitive</h4>
+            <img class='webapp' src="images/Group 37.png" alt="Mon image de test">
+        </section>
+        <section style="min-height: 30vw;">
+          <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/uNkADHZStDE" frameborder="0" width="560" height="315"></iframe> 
+           </div>           
         </section>
         <section style="min-height: 30vw; background: #eaf6fd85;">
             <img class='leaf' src="images/leaf.png" alt="Mon image de test">
             <h4>Nous contacter</h4>
-            <button class="devis centrage1">Nous contacter</button>
+            <a href="mailto:contact@seedartha.com"><button class="devis centrage1">Nous contacter</button></a>
+            <p class="contact-desc">Si vous souhaitez acheter des produits ou obtenir un devis, <br>veuillez nous contacter à contact@seedartha.com. Vous pouvez aussi nous laisser <br>vos coordonnées ci-dessous et nous vous contacterons dès que possible.</p>
             <button class="devis centrage2">Demander un devis</button>
         </section>
-        <section style="min-height: 30vw; background: #203649;">
-            <p style="text-align: center; color: white;">Nous contacter</p>
+        <section style="min-height: 20vw; background: #203649;">
+          <img class='fb' src="images/Vector.png" alt="Mon image de test">
+          <img class='twi' src="images/Path 2.png" alt="Mon image de test">
+          <img class='ig' src="images/Group 18.png" alt="Mon image de test">
         </section>
+
+
+
+<script>
+document.querySelectorAll('.more').forEach(btn => {
+  btn.addEventListener('click', function() {
+    let scrollDistance = document.documentElement.clientHeight;
+    if (btn.className.split(' ').includes('scroll-up')) {
+      scrollDistance *= -1;
+    }
+    window.scrollBy(0, scrollDistance);
+  });
+});
+  </script>
+
 
   </body>
 </html>
