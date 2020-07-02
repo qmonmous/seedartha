@@ -21,6 +21,7 @@ nav {
     color: black;
     z-index: 99;
     font-family: 'Gill Sans';
+    background: white;
 }
 
 ul {
