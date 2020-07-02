@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="design.css">
     <link rel="shortcut icon" type="image/png" href="newlogo.png"/>
     <meta charset="utf-8">
@@ -27,11 +28,62 @@
                 <h2><span class="green">Produire et tester</span><br> vos propres semences <br>devient <span class="green">un jeu d'enfant.</span><br><p class="desc">Testez vos graines simplement et intuitivement, pour des semences<br> toujours plus qualitatives et parfaitement adaptées à votre sol.</p></h2>
                 <button class="more">En savoir plus</button>
         </section>
+
+
+
         <section>
-            <img class='leaf' src="images/leaf.png" alt="Mon image de test">
-            <h4>Nos créations pour vous assister à atteindre des performances optimales</h4>
-            <img class='services' src="images/functions (2).png" alt="Mon image de test">
+          <img class='leaf' src="images/leaf.png" alt="Mon image de test">
+          <h4>Nos créations pour vous aider à atteindre des performances optimales</h4>
+          <img class='services' src="images/functions (2).png" alt="Mon image de test">
+      </section>
+
+
+
+        <section>
+          <img class='leaf' src="images/leaf.png" alt="Mon image de test">
+          <h4>Seedartha se décline en 3 modèles</h4>
         </section>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" style="width: 80%; margin: 0 auto; margin-top: calc(50px - 52vw); margin-bottom: 20vw">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+        
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <p class='thug'><b>S</b> : 1.4m x 2.9m</p>
+              <img src="images/s.png" alt="Chania">
+            </div>
+        
+            <div class="item">
+              <p class='thug'><b>M</b> : 2.3m x 5.7m</p>
+              <img src="images/m.png" alt="Chania">
+            </div>
+        
+            <div class="item">
+              <p class='thug'><b>S</b> : 2.9m x 17.9m</p>
+              <img src="images/l.png" alt="Flower">
+            </div>
+        
+          </div>
+        
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+      
+
+  
         <section style="height: 80vw">
             <img class='leaf' src="images/leaf.png" alt="Mon image de test">
             <h4>Un monitoring précis et instantané, grâce à une web-app simple et intuitive</h4>
@@ -52,6 +104,9 @@
         </section>
 
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 
 <script>
 document.querySelectorAll('.more').forEach(btn => {
@@ -64,6 +119,8 @@ document.querySelectorAll('.more').forEach(btn => {
   });
 });
   </script>
+
+
 
 
   </body>
